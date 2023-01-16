@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
 :root {
     --primary-color: #cf0f0f; 
@@ -37,7 +38,7 @@
     --header-background-color: #220f0f;
     --highlight-color: #ffffff;
     --featured-font-family: "Rubik Glitch", sans-serif;
-    --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
+    --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
     --character-bottom-image-color: rgba(255, 255, 255, 0.1);
     --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
     --character-top-image-color: #000;
