@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 
 :root {
-    --primary-color: #cf0f0f;
+    --primary-color: #cf0f0f; 
     --primary-color-contrast: #ffffff;
     --field-background-color: #000;
   }
@@ -19,11 +19,11 @@
     --header-background-color: #e3e3e3;
     --highlight-color: #000000;
     --featured-font-family: "Archivo", sans-serif;
-    --character-top-image-src: url("/semana-frontend-mundo-invertido-main/assets/images/characters/kids-on-the-bike.svg");
+    --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
     --character-top-image-color: #ffffff;
-    --character-bottom-image-src: url("/semana-frontend-mundo-invertido-main/assets/images/characters/inverted-world-monster.svg");
+    --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
     --character-bottom-image-color: #e5e5e5;
-    --background-lamp-image: url("/semana-frontend-mundo-invertido-main/assets/images/backgrounds/lamps.png");
+    --background-lamp-image: url("../images/backgrounds/lamps.png");
     --footer-background-color: #b5bbbf;
   }
 
@@ -37,11 +37,11 @@
     --header-background-color: #220f0f;
     --highlight-color: #ffffff;
     --featured-font-family: "Rubik Glitch", sans-serif;
-    --character-bottom-image-src: url("/semana-frontend-mundo-invertido-main/assets/images/characters/kids-on-the-bike.svg");
+    --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
     --character-bottom-image-color: rgba(255, 255, 255, 0.1);
-    --character-top-image-src: url("/semana-frontend-mundo-invertido-main/assets/images/characters/inverted-world-monster.svg");
+    --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
     --character-top-image-color: #000;
-    --background-lamp-image: url("/semana-frontend-mundo-invertido-main/assets/images/backgrounds/lamps-inverted.png");
+    --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
     --footer-background-color: #000;
   }
 
@@ -122,7 +122,7 @@ h1, h2, h3 {
         width: 100%;
         height: 100%;
         position: absolute;
-        background-image: url(/semana-frontend-mundo-invertido-main/assets/images/backgrounds/florest.png);
+        background-image: url("../images/backgrounds/florest.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center 90%;
@@ -195,7 +195,7 @@ h1, h2, h3 {
         width: 100%;
         height: 100%;
         position: absolute;
-        background: var(--page-background), no-repeat url("/semana-frontend-mundo-invertido-main/assets/images/backgrounds/florest.png");
+        background: var(--page-background), no-repeat url("../images/backgrounds/florest.png");
         background-size: cover;
         z-index: -1;
 
@@ -376,7 +376,7 @@ h1, h2, h3 {
         content: "";
         width: 300px;
         height: 200px;
-        background: url(/semana-frontend-mundo-invertido-main/assets/images/footer/tape.svg) no-repeat;
+        background: url("../images/footer/tape.svg") no-repeat;
         background-size: contain;
         position: absolute;
         
